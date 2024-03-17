@@ -17,3 +17,14 @@ html,body{
   width: 100%;
   height: 100%;
 }
+@media (max-width: 640px){
+  .main{
+    background: url(./assets/mobile-bg.jpg) no-repeat;
+  }
+}
+
+.main{
+    background: url(./assets/bg.jpg) no-repeat;
+    background-size:cover;
+}
+
